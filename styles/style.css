@@ -29,3 +29,50 @@ body {
     height: 56px;
     font-size: 24px;
 }
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-left: 20px;
+} header h2 {
+    margin-right: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-add, .btn-logout {
+    background-color: black;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;
+}
+
+.gmail {
+    background-color: white;
+    width: 300px;
+    border-spacing: 30px 0px;
+    padding-left: 15px;
+}
+
+.btn-edit {
+    background-color: #33aaff;
+    margin-right: 10px;
+} .btn-delete {
+    background-color: #ff6666;
+}
+
+table {
+    border-spacing: 0 15px;
+}
