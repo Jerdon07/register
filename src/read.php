@@ -12,7 +12,7 @@
     <div>
         <header>
             <h2>Users</h2>
-            <button class="btn-add">Add</button>
+            <button class="btn-add" onclick="window.location.href='./create.php';">Add</button>
             <button class="btn-logout">Logout</button>
         </header>
 
