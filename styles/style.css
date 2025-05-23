@@ -13,6 +13,10 @@ body {
     align-items: center
 }
 
+.register-btn {
+    background-color: #FF7B7B;
+}
+
 .title {
     margin-top: 36px;
     font-size: 32px;
