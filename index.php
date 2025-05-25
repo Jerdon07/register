@@ -9,7 +9,7 @@
 <body class="body-container">
     <div class="container">
         <h2 class="title">Account Registration</h2>
-        <button class="main-btn" onclick="window.location.href='./src/read.php';">Enter</button>
+        <button class="main-btn" onclick="window.location.href='./src/public/read.php';">Enter</button>
     </div>
 </body>
 </html>
