@@ -3,35 +3,52 @@ body {
     font-family: verdana;
 }
 
-.container {
-    width: 477px;
-    height: 436px;
-    margin: 150px auto 0;
-    background-color: white;
+.body-container {
     display: flex;
-    flex-direction: column;
-    align-items: center
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-.register-btn {
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.main-btn {
     background-color: #FF7B7B;
+    width: 100%;
 }
 
 .title {
-    margin-top: 36px;
+    margin-top: 30px;
     font-size: 32px;
     font-weight: 400;
 }
 
+.input-box {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px 0;
+    border: none;
+    background-color: #d9d9d9;
+    border-radius: 5px;
+} .login-link {
+    display: block;
+    margin-top: 15px;
+    font-size: 12px;
+    color: blue;
+    text-decoration: none;
+} .login-link:hover {
+    text-decoration: underline;
+}
+
 .enter {
-    width: 200px;
-    margin-top: 231px;
-    background-color: #FF7B7B;
-    border-style: none;
-    color: white;
-    width: 377px;
-    height: 56px;
-    font-size: 24px;
 }
 
 header {
